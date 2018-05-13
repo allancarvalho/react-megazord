@@ -28,6 +28,7 @@ module.exports = {
       chunkFilename: "[id].css"
     })
   ],
+  devtool: 'source-map',
   devServer: {
     contentBase: path.join(__dirname, "..", "..", "dist"),
     compress: true,
