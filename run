@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#yarn webpack --config=node_modules/all-in-one/webpack.config.js
-#yarn webpack-dev-server --mode development --config=node_modules/all-in-one/webpack.config.js
-yarn webpack-dev-server --mode development --config=node_modules/all-in-one/webpack.config.js

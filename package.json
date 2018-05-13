@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "bin": {
-    "all-in-one": "./run"
+    "all-in-one": "./bin/all-in-one"
   },
   "dependencies": {
     "babel-core": "^6.26.3",

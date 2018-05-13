@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ "$NODE_ENV" == "production" ]
+then
+    yarn webpack --mode development --config=node_modules/all-in-one/webpack.config.js
+else
+    yarn webpack-dev-server --mode production --config=node_modules/all-in-one/webpack.config.js
+fi
